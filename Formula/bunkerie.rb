@@ -3,30 +3,30 @@
 class Bunkerie < Formula
   desc "Encrypted off-device backup for AI agent context files"
   homepage "https://bunkerie.com"
-  version "0.0.7"
+  version "0.0.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://dl.bunkerie.com/releases/v0.0.7/bunkerie_v0.0.7_darwin_arm64.tar.gz"
-      sha256 "229094ba9435ba8da81a091e429a5bc76a775d3c5b50e3ab78388c68d8a29b74"
+      url "https://dl.bunkerie.com/releases/v0.0.10/bunkerie_v0.0.10_darwin_arm64.tar.gz"
+      sha256 "884555752f3dd1d6ee932ca035e46bf5c0b976af4f53a3eaaeb7652859aa39e1"
     end
 
     on_intel do
-      url "https://dl.bunkerie.com/releases/v0.0.7/bunkerie_v0.0.7_darwin_amd64.tar.gz"
-      sha256 "0ba8f5bacd4d8f038603ea43d8d824d3f67d4597f95c5b71a315d86e12319d8c"
+      url "https://dl.bunkerie.com/releases/v0.0.10/bunkerie_v0.0.10_darwin_amd64.tar.gz"
+      sha256 "db0d580ed5ac2281419b01fe3a1105fc5b0a379b966308cd7bfd167a06bdc83f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.bunkerie.com/releases/v0.0.7/bunkerie_v0.0.7_linux_arm64.tar.gz"
-      sha256 "09d119bb5c8d8011c1a40480fdf4c2caaa90c8274da33657f99b07d0549279a7"
+      url "https://dl.bunkerie.com/releases/v0.0.10/bunkerie_v0.0.10_linux_arm64.tar.gz"
+      sha256 "4dde4b64f9688bc3544a3129e8776c7c9a2867a6e73bc2768c62734de3792b30"
     end
 
     on_intel do
-      url "https://dl.bunkerie.com/releases/v0.0.7/bunkerie_v0.0.7_linux_amd64.tar.gz"
-      sha256 "038bbeb36cdf447f31b86ad4c3a9194af8dde0d096484e728e8ef944699ae87d"
+      url "https://dl.bunkerie.com/releases/v0.0.10/bunkerie_v0.0.10_linux_amd64.tar.gz"
+      sha256 "6546fc192b34b3e4daae945dda49a459f58bc45a3d6f23995196c974740e210b"
     end
   end
 
